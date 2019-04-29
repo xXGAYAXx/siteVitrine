@@ -1,0 +1,278 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none !important;
+}
+
+.row
+{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+footer
+{
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  padding: 15px;
+}
+
+h2
+{
+  padding-top: 70px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 800;
+}
+
+#nav-box
+{
+  z-index: 1050;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  min-height: 70px;
+}
+
+#logo
+{
+  float: left;
+  margin-top: 7px;
+}
+
+nav
+{
+  text-align: center;
+}
+.nav-list
+{
+  font-size: 2em;
+  padding: 0 15px;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.banner-box
+{
+  padding-top: 70px;
+}
+
+.banner-1
+{
+
+  background-image: url('images/bg1.jpg');
+}
+
+.banner-2
+{
+  background-image: url('images/bg2.jpg');
+  display: none;
+}
+
+.banner
+{
+
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.banner-text
+{
+  color: white;
+  font-weight: bold;
+  padding-top: 150px;
+  width: 50%;
+  text-align: center;
+}
+
+.banner-text p
+{
+  font-size: 1.5em;
+}
+
+span
+{
+  color: #5CADD3;
+  font-weight: 800;
+}
+h1
+{
+  font-size: 3.5em;
+}
+
+.btn-primary
+{
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.show-menu-btn
+{
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: #5CADD3;
+	width: 50px;
+	height: 45px;
+	padding: 5px;
+}
+
+.show-menu-btn:hover
+{
+  box-shadow: 0 0 15px black;
+  background-color: black;
+}
+.btn-line
+{
+	border-radius: 5px;
+	margin: 5px auto;
+	width: 35px;
+	height: 5px;
+	background-color: white;
+}
+
+#menu-btn
+{
+  position: absolute;
+  right: 15px;
+  top: 10px;
+
+}
+
+.welcome
+{
+  padding: 25px 0;
+  text-align: center;
+}
+
+.welcome p
+{
+  font-size: 1.5em;
+}
+
+#services
+{
+  min-height: 80vh;
+}
+#services-list-box
+{
+  text-align: center;
+}
+.services-list
+{
+  padding: 15px;
+  font-size: 1.5em;
+}
+
+h3
+{
+  font-size: 2em;
+  color: #5CADD3;
+  font-weight: 600;
+}
+
+#services-img
+{
+  text-align: center;
+}
+
+#portfolio
+{
+  background-color: rgb(114, 106, 106, 0.5);
+  padding-bottom: 25px;
+}
+.project-row
+{
+  margin: 20px 0;
+}
+.project-img
+{
+  width: 100%;
+}
+.project-img-box
+{
+  text-align: center;
+}
+
+#contact-box
+{
+  position: relative;
+}
+#map
+{
+  height: 65vh;
+}
+
+form
+{
+  position: absolute;
+  right: 25px;
+  top: 10px;
+  background-color: rgba(122, 198, 234, 0.9);
+  width: 400px;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 10px;
+}
+h4
+{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.btn-success
+{
+  font-size: 1em;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: black;
+}
+.form-control
+{
+  margin: 5px 0;
+}
+
+@media all and (max-width: 1100px)
+{
+  #contact-box
+  {
+    position: inherit;
+  }
+  form
+  {
+    position: inherit;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 25px;
+  }
+
+  .nav-list
+  {
+    display: block;
+  }
+  #logo
+  {
+    float: none;
+  }
+
+  .project-img-box
+  {
+    padding: 10px;
+  }
+
+  .row
+  {
+    margin: 0;
+  }
+
+  .banner-text
+  {
+    width: 100%;
+  }
+}
